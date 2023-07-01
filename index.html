@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-do List</title>
+</head>
+
+<body>
+    <div class="main">
+    <nav>
+        <ul>
+            <li>To-Do List</li>
+        </ul>
+    </nav>
+    <!-- Contains all the three boxes -->
+    <div class="container">
+        <!-- This box adds item to the task list -->
+        <div class="get">
+            <span class="head">To-Do</span>
+            <input type="text" id="get-task" placeholder="Task" required maxlength="40">
+            <textarea placeholder="Describe your Task" id="get-desc">
+
+            </textarea>
+            <button id="get-btn">Add Task</button>
+        </div>
+
+        <!-- This box containes all the tasks -->
+        <div id="all-tasks" class="boxes">
+            <span class="head"> All Tasks</span>
+            <span class="not">( Single Click/Tap to Mark as done )</span>
+            <!-- Task -->
+                
+            <!--Task ended -->
+        </div>
+
+        <!-- This box contains completed task -->
+        <div id="com-tasks" class="boxes">
+            <span class="head">Completed Tasks</span>
+            <span class="not">( Single Click/Tap to Delete )</span>
+        </div>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+
+</html>
